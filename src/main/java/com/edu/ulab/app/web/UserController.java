@@ -78,4 +78,5 @@ public class UserController {
         log.info("Delete user and his books:  userId {}", userId);
         userDataFacade.deleteUserWithBooks(userId);
     }
+
 }

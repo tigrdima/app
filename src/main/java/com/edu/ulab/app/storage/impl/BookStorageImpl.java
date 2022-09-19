@@ -23,6 +23,7 @@ public class BookStorageImpl implements BookStorage {
     public BookDto updateBook(BookDto bookDto) {
         bookDtoMap.put(bookDto.getId(), bookDto);
         return getBookById(bookDto.getId());
+
     }
 
     @Override

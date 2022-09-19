@@ -19,6 +19,7 @@ public class UserServiceImpl implements UserService {
         this.userStorage = userStorage;
     }
 
+
     @Override
     public UserDto createUser(UserDto userDto) {
         long id = new Random().nextLong();

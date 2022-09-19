@@ -26,5 +26,6 @@ public class HttpRequestFilter extends OncePerRequestFilter {
         } finally {
             MDC.remove("requestId");
         }
+
     }
 }

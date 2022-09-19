@@ -19,6 +19,7 @@ public class ControllerExceptionHandler {
         log.error(exc.getMessage());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST)
                 .body(new BaseWebResponse(createErrorMessage(exc)));
+
     }
 
     private String createErrorMessage(Exception exception) {

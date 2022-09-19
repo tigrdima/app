@@ -12,4 +12,5 @@ public class SwaggerInfo {
      * Описание API.
      */
     public final String DESCRIPTION = "Сервис";
+
 }

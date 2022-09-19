@@ -12,4 +12,5 @@ public interface UserStorage {
     Optional<UserDto> getUserById(Long id);
 
     void deleteUserById(Long id);
+
 }
