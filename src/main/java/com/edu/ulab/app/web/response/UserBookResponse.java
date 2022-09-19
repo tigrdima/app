@@ -10,5 +10,4 @@ import java.util.List;
 public class UserBookResponse {
     private Long userId;
     private List<Long> booksIdList;
-
 }

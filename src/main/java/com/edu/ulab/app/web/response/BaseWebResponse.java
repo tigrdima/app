@@ -7,5 +7,4 @@ import lombok.Data;
 @AllArgsConstructor
 public class BaseWebResponse {
     private String errorMessage;
-
 }

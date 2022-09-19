@@ -8,5 +8,4 @@ import java.util.List;
 public class UserBookRequest {
     private UserRequest userRequest;
     private List<BookRequest> bookRequests;
-
 }

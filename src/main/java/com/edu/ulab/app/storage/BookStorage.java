@@ -14,5 +14,4 @@ public interface BookStorage {
     void deleteBookById(Long id);
 
     List<BookDto> getUserBooks(Long userId);
-
 }
