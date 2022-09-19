@@ -110,6 +110,5 @@ public class UserDataFacade {
                 .map(BookDto::getId)
                 .peek(deleteBookDtoId -> log.info("mapped book: {}", deleteBookDtoId))
                 .forEach(bookService::deleteBookById);
-
     }
 }

@@ -19,6 +19,5 @@ public class SwaggerConfig {
                 .description(SwaggerInfo.DESCRIPTION)
                 .version(swaggerApiVersion)
         );
-
     }
 }

@@ -29,7 +29,6 @@ public class UserStorageImpl implements UserStorage {
                 .map(UserDto::getId).orElse(-1L));
         update.ifPresent(dto -> userDtoMap.computeIfPresent(dto.getId(), (k, v) -> dto));
         return update;
-
     }
 
     @Override
